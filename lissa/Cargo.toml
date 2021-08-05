@@ -1,0 +1,13 @@
+[package]
+name = "lissa"
+version = "0.1.0"
+authors = ["Nico Chatzi <nico.chatzigianis@focusrite.com>"]
+edition = "2018"
+
+[dependencies]
+nannou = "0.15.0"
+nannou_audio = "0.15.0"
+lazy_static = "1.4.0"
+rume = { git = "https://github.com/nicochatzi/rume", rev = "1a525efa78b1c237187c6a002e8c2d35779dd594" }
+heapless = "0.5.6"
+rand = "0.7"

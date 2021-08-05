@@ -1,0 +1,15 @@
+[package]
+name = "yfes"
+version = "0.1.0"
+authors = ["Nico Chatzi <nico.chatzigianis@focusrite.com>"]
+edition = "2018"
+
+[dependencies]
+nannou = "0.15.0"
+nannou_audio = "0.15.0"
+rand = "0.8.3"
+hound = "3.4.0"
+lazy_static = "1.4.0"
+rume = { git = "https://github.com/nicochatzi/rume", branch = "main" }
+heapless = "0.6.1"
+
